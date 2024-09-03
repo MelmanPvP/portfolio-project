@@ -1,0 +1,43 @@
+footer{
+  position: relative;
+  height: 146px;
+}
+.list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap:60px;
+  margin-top: 60px;
+  margin-left: 190px;
+}
+.item{
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color:#42446E;
+  cursor: pointer;
+}
+.text{
+  font-family: Poppins, serif;
+  font-weight: 400;
+  color: #666666;
+  font-size:18px;
+  position: absolute;
+  right: 180px;
+  bottom:106px;
+}
+.name{
+  background: linear-gradient(90deg, #00C0FD 0%, #7A62D1 3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.coffee{
+  background: linear-gradient(90deg, #00C0FD 0%, #E70FAA 3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.love{
+  background: linear-gradient(90deg, #7A62D1  90%, #E70FAA  1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,42 @@
+.header{
+ display: flex;
+  flex-direction: row;
+}
+.img{
+  width: 97px;
+  height: 59px;
+  margin-top: 31px;
+  margin-left: 177px;
+}
+.list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap:60px;
+  margin-top: 49px;
+  margin-left: 306px;
+}
+.item{
+  font-family: DM Sans, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color:#666666;
+  cursor: pointer;
+}
+.icons{
+  margin-top: 47px;
+  display: flex;
+  gap:22px;
+  @media screen and (max-width: 1600px){
+    margin-left: 51px;
+    position: absolute;
+    right: 130px;
+  }
+  position: absolute;
+  right: 430px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}

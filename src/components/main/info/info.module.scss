@@ -1,0 +1,27 @@
+.info{
+  width: 1200px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 220px;
+  gap:220px;
+
+}
+.text{
+  width: 636px;
+  height: 300px;
+  font-size: 58px;
+  color: #42446E;
+  font-family: Poppins,serif;
+  font-weight: bold;
+}
+.name{
+  background: linear-gradient(90deg, #00C0FD 3%, #7A62D1 97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.img{
+  margin-top: 80px;
+}
