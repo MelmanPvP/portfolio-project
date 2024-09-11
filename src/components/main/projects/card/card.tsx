@@ -10,7 +10,7 @@ export default function Card (props : Card){
             <span className={css.text}>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</span>
             <p className={css.stack}>Tech stack : HTML , JavaScript, SASS, React</p>
             <div className={css.links}>
-            <a className={css.link}><img className={css.img} src='/link.svg' alt=''/>Live Preview</a>
+            <a className={css.link}><img className={css.img} src='/html.svg' alt=''/>Live Preview</a>
             <a className={css.link}> <img className={css.img} src='/githubsmol.svg' alt=''/>View Code</a>
             </div>
 
