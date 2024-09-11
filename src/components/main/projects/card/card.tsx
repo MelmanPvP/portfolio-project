@@ -1,5 +1,8 @@
 import css from './card.module.scss'
-export default function Card (props){
+interface Card {
+    img: string
+}
+export default function Card (props : Card){
     return (
         <div className={css.card}>
             <img src={props.img} alt=''/>
