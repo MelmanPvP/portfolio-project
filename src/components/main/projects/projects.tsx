@@ -12,7 +12,7 @@ export default function Projects() {
         },
         {
             id: 3,
-            img: '/pic3.png'
+            img: 'https://melmanpvp.github.io/portfolio-project//pic1.png'
         },
         {
             id: 4,
