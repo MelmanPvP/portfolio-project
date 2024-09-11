@@ -35,14 +35,14 @@ export default function Projects() {
                 {info.map(item => <Card {...item} />)}
             </div>
             <div className={css.info}>
-                <img className={css.img} src='/logo2.svg' alt=''/>
+                <img className={css.img} src='https://melmanpvp.github.io/portfolio-project//logo2.svg' alt=''/>
                 <div className={css.data}>
                 <span className={css.info_text}>+91 12345 09876</span>
                 <span className={css.info_text}>info@example.com</span>
                     <div className={css.icons}>
-                        <img className={css.icon} src='/github1.svg' alt=''/>
-                        <img className={css.icon}  src='/twitter1.svg' alt=''/>
-                        <img className={css.icon} src='/linkedin1.svg' alt=''/>
+                        <img className={css.icon} src='https://melmanpvp.github.io/portfolio-project//github1.svg' alt=''/>
+                        <img className={css.icon}  src='https://melmanpvp.github.io/portfolio-project//twitter1.svg' alt=''/>
+                        <img className={css.icon} src='https://melmanpvp.github.io/portfolio-project//linkedin1.svg' alt=''/>
                     </div>
                 </div>
             </div>
