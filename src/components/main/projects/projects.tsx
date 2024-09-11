@@ -4,27 +4,27 @@ export default function Projects() {
     const info = [
         {
             id: 1,
-            img: '/pic1.png'
-        },
-        {
-            id: 2,
-            img: '/pic2.png'
-        },
-        {
-            id: 3,
             img: 'https://melmanpvp.github.io/portfolio-project//pic1.png'
         },
         {
+            id: 2,
+            img: 'https://melmanpvp.github.io/portfolio-project//pic2.png'
+        },
+        {
+            id: 3,
+            img: 'https://melmanpvp.github.io/portfolio-project//pic3.png'
+        },
+        {
             id: 4,
-            img: '/pic4.png'
+            img: 'https://melmanpvp.github.io/portfolio-project//pic4.png'
         },
         {
             id: 5,
-            img: '/pic5.png'
+            img: 'https://melmanpvp.github.io/portfolio-project//pic5.png'
         },
         {
             id: 6,
-            img: '/pic6.png'
+            img: 'https://melmanpvp.github.io/portfolio-project//pic6.png'
         },
     ]
     return (
