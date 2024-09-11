@@ -10,7 +10,7 @@ export default function Info () {
                     I build things for web
                 </p>
             </div>
-            <img className={css.img} src='../../../public/man.png' alt=''/>
+            <img className={css.img} src='/man.png' alt=''/>
         </div>
     )
 }
