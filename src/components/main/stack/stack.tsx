@@ -7,18 +7,18 @@ export default function Stack() {
            </h2>
             <span className={css.text}> Technologies I’ve been working with recently</span>
             <div className={css.tech}>
-                <img src='/html.svg' alt=''/>
-                <img src='/css.svg' alt=''/>
-                <img src='/javascript.svg' alt=''/>
-                <img src='/react.svg' alt=''/>
-                <img src='/Vector.png' alt=''/>
-                <img src='/bootstrap.svg' alt=''/>
-                <img src='/tailwind.svg' alt=''/>
-                <img src='/scss.svg' alt=''/>
-                <img src='/git.svg' alt=''/>
-                <img src='/greensock.svg' alt=''/>
-                <img src='/vscode.svg' alt=''/>
-                <img src='/github2.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//html.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//css.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//javascript.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//react.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//Vector.png' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//bootstrap.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//tailwind.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//scss.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//git.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//greensock.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//vscode.svg' alt=''/>
+                <img src='https://melmanpvp.github.io/portfolio-project//github2.svg' alt=''/>
             </div>
         </div>
     )
