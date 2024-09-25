@@ -9,6 +9,9 @@ footer{
   gap:60px;
   margin-top: 60px;
   margin-left: 190px;
+  @media screen and (max-width: 1440px){
+    margin-left: 100px;
+  }
 }
 .item{
   font-family: DM Sans, sans-serif;
@@ -16,6 +19,7 @@ footer{
   font-size: 18px;
   color:#42446E;
   cursor: pointer;
+  text-decoration: none;
 }
 .text{
   font-family: Poppins, serif;
@@ -25,6 +29,9 @@ footer{
   position: absolute;
   right: 180px;
   bottom:106px;
+  @media screen and (max-width: 1440px){
+    right: 100px;
+  }
 }
 .name{
   background: linear-gradient(90deg, #00C0FD 0%, #7A62D1 3%);

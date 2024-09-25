@@ -32,7 +32,7 @@ export default function Projects() {
             <h2 className={css.title}>Projects</h2>
             <span className={css.text}>Things I’ve built so far</span>
             <div className={css.projects}>
-                {info.map(item => <Card {...item} />)}
+                {info.map(item => <Card key={item.id} {...item} />)}
             </div>
             <div className={css.info}>
                 <img className={css.img} src='https://melmanpvp.github.io/portfolio-project//logo2.svg' alt=''/>

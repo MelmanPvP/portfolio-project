@@ -4,11 +4,11 @@ export default function Header(){
         <header className={css.header}>
             <img className={css.img} src='https://melmanpvp.github.io/portfolio-project//logo.svg' alt=''/>
             <ul className={css.list}>
-                <li className={css.item}>Home</li>
-                <li className={css.item}>About</li>
-                <li className={css.item}>Tech Stack</li>
-                <li className={css.item}>Projects</li>
-                <li className={css.item}>Contact</li>
+                <li className={css.item}><a className={css.item} href='#'>Home</a></li>
+                <li className={css.item}><a className={css.item} href='#'>About</a></li>
+                <li className={css.item}><a className={css.item} href='#'>Tech Stack</a></li>
+                <li className={css.item}><a className={css.item} href='#'>Projects</a></li>
+                <li className={css.item}><a className={css.item} href='#'>Contact</a></li>
             </ul>
             <div className={css.icons}>
                 <img className={css.icon} src='https://melmanpvp.github.io/portfolio-project//github.svg' alt=''/>

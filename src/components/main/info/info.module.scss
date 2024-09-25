@@ -7,7 +7,9 @@
   margin-right: auto;
   margin-top: 220px;
   gap:220px;
-
+  @media screen and (max-width: 1024px){
+    gap:100px;
+  }
 }
 .text{
   width: 636px;
@@ -16,6 +18,9 @@
   color: #42446E;
   font-family: Poppins,serif;
   font-weight: bold;
+  @media screen and (max-width: 1024px){
+      font-size: 48px;
+  }
 }
 .name{
   background: linear-gradient(90deg, #00C0FD 3%, #7A62D1 97%);
@@ -24,4 +29,8 @@
 }
 .img{
   margin-top: 80px;
+  @media screen and (max-width: 1024px){
+    width: 250px;
+    height: 250px;
+  }
 }

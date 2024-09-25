@@ -7,20 +7,23 @@
   font-family: Poppins,serif;
   font-weight: bold;
   display: flex;
-  margin-left: 600px;
-  margin-right: auto;
+  justify-content: center;
 }
 .text{
   font-family: Poppins,serif;
   font-size: 32px;
   color: #666666;
-  margin-left: 423px;
+  //margin-left: 423px;
+  display: flex;
+  justify-content: center;
 }
 .tech{
-  margin-left: 184px;
+  //margin-left: 184px;
   margin-top: 150px;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 1200px;
   gap:100px;
+  margin-left: auto;
+  margin-right: auto;
 }
