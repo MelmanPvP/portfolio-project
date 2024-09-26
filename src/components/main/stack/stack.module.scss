@@ -1,5 +1,8 @@
 .stack{
   margin-top: 350px;
+  @media screen and (max-width: 414px){
+    margin-top: 0;
+  }
 }
 .title{
   font-size:48px;
@@ -8,17 +11,27 @@
   font-weight: bold;
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 1024px){
+    font-size: 36px;
+  }
+  @media screen and (max-width: 414px){
+    font-size: 18px;
+  }
 }
 .text{
   font-family: Poppins,serif;
   font-size: 32px;
   color: #666666;
-  //margin-left: 423px;
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 1024px){
+    font-size: 24px;
+  }
+  @media screen and (max-width: 414px){
+    font-size: 16px;
+  }
 }
 .tech{
-  //margin-left: 184px;
   margin-top: 150px;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -26,4 +39,21 @@
   gap:100px;
   margin-left: auto;
   margin-right: auto;
+  @media screen and (max-width: 1024px){
+    width: 600px;
+    gap:50px;
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 414px){
+    width: 400px;
+    gap:20px;
+  }
+}
+.img{
+  width: 60px;
+  height: 60px;
+  @media screen and (max-width: 414px){
+    width: 40px;
+    height: 40px;
+  }
 }

@@ -1,6 +1,9 @@
 .header{
  display: flex;
   flex-direction: row;
+  @media screen and (max-width: 414px){
+    justify-content: space-between;
+  }
 }
 .img{
   width: 97px;
@@ -30,6 +33,12 @@
     margin-left: 30px;
     gap:50px;
   }
+  @media screen and (max-width: 768px) {
+    gap:30px;
+  }
+  @media screen and (max-width: 414px) {
+    display: none;
+  }
 }
 .item{
   font-family: DM Sans, sans-serif;
@@ -38,8 +47,14 @@
   color:#666666;
   cursor: pointer;
   text-decoration: none;
+  &:hover{
+    color: #404040;
+  }
   @media screen and (max-width: 1024px){
     font-size: 16px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
   }
 }
 .icons{
@@ -48,6 +63,7 @@
   gap:22px;
   position: absolute;
   right: 430px;
+  cursor: pointer;
   @media screen and (max-width: 1600px){
     margin-left: 51px;
     position: absolute;
@@ -56,9 +72,20 @@
   @media screen and (max-width: 1024px){
    right: 100px;
   }
+  @media screen and (max-width: 768px) {
+    right: 30px;
+  }
+  @media screen and (max-width: 414px) {
+    display: none;
+  }
 }
 .icon{
   width: 30px;
   height: 30px;
   cursor: pointer;
+  @media screen and (max-width: 768px) {
+    width: 25px;
+    height: 25px;
+  }
 }
+

@@ -1,6 +1,12 @@
 footer{
   position: relative;
   height: 146px;
+  @media screen and (max-width: 768px) {
+   height: 80px;
+  }
+  @media screen and (max-width: 414px) {
+    height: 40px;
+  }
 }
 .list{
   list-style-type: none;
@@ -12,6 +18,18 @@ footer{
   @media screen and (max-width: 1440px){
     margin-left: 100px;
   }
+  @media screen and (max-width: 1024px) {
+    margin-left: 30px;
+    gap:20px;
+  }
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
+    gap: 10px;
+  }
+  @media screen and (max-width: 414px) {
+    margin-top: 10px;
+    margin-left: -30px;
+  }
 }
 .item{
   font-family: DM Sans, sans-serif;
@@ -20,6 +38,15 @@ footer{
   color:#42446E;
   cursor: pointer;
   text-decoration: none;
+  &:hover{
+    color: #404040;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 414px) {
+    font-size: 6px;
+  }
 }
 .text{
   font-family: Poppins, serif;
@@ -31,6 +58,18 @@ footer{
   bottom:106px;
   @media screen and (max-width: 1440px){
     right: 100px;
+  }
+  @media screen and (max-width: 1024px) {
+    right: 30px;
+    bottom: 102px;
+  }
+  @media screen and (max-width: 768px) {
+   font-size: 14px;
+    bottom: 45px;
+  }
+  @media screen and (max-width: 414px) {
+    font-size:6px;
+    bottom: 24px;
   }
 }
 .name{
