@@ -1,32 +1,8 @@
 import css from './projects.module.scss'
 import Card from "./card/card.tsx";
+import {info} from "../../data/data.ts";
 export default function Projects() {
-    const info = [
-        {
-            id: 1,
-            img: 'https://melmanpvp.github.io/portfolio-project//pic1.png'
-        },
-        {
-            id: 2,
-            img: 'https://melmanpvp.github.io/portfolio-project//pic2.png'
-        },
-        {
-            id: 3,
-            img: 'https://melmanpvp.github.io/portfolio-project//pic3.png'
-        },
-        {
-            id: 4,
-            img: 'https://melmanpvp.github.io/portfolio-project//pic4.png'
-        },
-        {
-            id: 5,
-            img: 'https://melmanpvp.github.io/portfolio-project//pic5.png'
-        },
-        {
-            id: 6,
-            img: 'https://melmanpvp.github.io/portfolio-project//pic6.png'
-        },
-    ]
+
     return (
         <div>
             <h2 className={css.title}>Projects</h2>
