@@ -36,6 +36,8 @@
   margin-top: 96px;
   @media screen and (max-width: 414px){
     margin-top: 26px;
+    display: flex;
+    flex-direction: column;
   }
 }
 .info{
