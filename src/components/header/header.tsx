@@ -7,10 +7,10 @@ export default function Header(){
             <BurgerMenu/>
             <ul className={css.list}>
                 <li className={css.item}><a className={css.item} href='#'>Home</a></li>
-                <li className={css.item}><a className={css.item} href='#'>About</a></li>
-                <li className={css.item}><a className={css.item} href='#'>Tech Stack</a></li>
-                <li className={css.item}><a className={css.item} href='#'>Projects</a></li>
-                <li className={css.item}><a className={css.item} href='#'>Contact</a></li>
+                <li className={css.item}><a className={css.item} href='#about'>About</a></li>
+                <li className={css.item}><a className={css.item} href='#stack'>Tech Stack</a></li>
+                <li className={css.item}><a className={css.item} href='#projects'>Projects</a></li>
+                <li className={css.item}><a className={css.item} href='#contact'>Contact</a></li>
             </ul>
             <div className={css.icons}>
                 <img className={css.icon} src='https://melmanpvp.github.io/portfolio-project//github.svg' alt=''/>

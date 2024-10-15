@@ -2,7 +2,7 @@ import css from './stack.module.scss'
 import {imgs} from "../../data/data.ts";
 export default function Stack() {
     return (
-        <div className={css.stack}>
+        <div id='stack' className={css.stack}>
            <h2 className={css.title}>
                My Tech Stack
            </h2>

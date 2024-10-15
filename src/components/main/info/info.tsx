@@ -1,7 +1,7 @@
 import css from './info.module.scss'
 export default function Info () {
     return (
-        <div className={css.info}>
+        <div id='about' className={css.info}>
             <div>
                 <p className={css.text}>
                     Hi 👋,<br/>
